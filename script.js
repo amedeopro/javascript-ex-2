@@ -14,7 +14,7 @@ for (i = 0; i < email.length; i++){
   }
 }
 
-//effettuato ciclo e verifiche se loginok è true OK PUOI ENTRARE altrimenti NON SEI AUTORIZZATO
+//effettuato ciclo e verifiche se loginok è true OK PUOI ENTRARE altrimenti NON SEI AUTORIZZATO 
  if (loginOK){
    console.log("OK puoi entrare");
  } else {
