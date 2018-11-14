@@ -7,9 +7,9 @@ document.writeln("Giocatore 2 esce il numero  " + dado2 + "<br>" + "<br>");
 
 //creo le condizioni per tirar fuori un vincitore
 if (dado1 < dado2){
-  document.writeln("Vince il giocatore 2");
+  document.writeln("Vince il Giocatore 2");
 } else if (dado1 > dado2){
-  document.writeln("Vince il giocatore 1");
+  document.writeln("Vince il Giocatore 1");
 } else {
   document.writeln("Pari! Nessuno vince");
 }
