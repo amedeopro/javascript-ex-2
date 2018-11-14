@@ -1,5 +1,5 @@
 // creo la lista delle email
-var email = ['a', 'b', 'c'];
+var email = ['info@pluto.com', 'info@pippo.com', 'info@caio.com'];
 // chiedo all'utente di inserire la sua email
 var emailUtente = prompt('Inserisci il tuo indirizzo email');
 // di base il mio login sarà errato
@@ -14,7 +14,7 @@ for (i = 0; i < email.length; i++){
   }
 }
 
-//effettuato ciclo e verifiche se loginok è true OK PUOI ENTRARE altrimenti NON SEI AUTORIZZATO 
+//effettuato ciclo e verifiche se loginok è true OK PUOI ENTRARE altrimenti NON SEI AUTORIZZATO
  if (loginOK){
    console.log("OK puoi entrare");
  } else {
