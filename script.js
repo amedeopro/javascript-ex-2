@@ -16,7 +16,11 @@ for (i = 0; i < email.length; i++){
 
 //effettuato ciclo e verifiche se loginok è true OK PUOI ENTRARE altrimenti NON SEI AUTORIZZATO
  if (loginOK){
-   console.log("OK puoi entrare");
+
+   document.writeln("OK puoi entrare");
+
  } else {
-   console.log("Non sei autorizzato all'accesso");
+
+   document.writeln("Non sei autorizzato all'accesso");
+
  }
